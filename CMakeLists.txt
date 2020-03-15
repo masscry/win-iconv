@@ -48,7 +48,7 @@ set(WIN_ICONV_SOURCES
 
 if (BUILD_SHARED_LIBS)
 	# shared library needs def file
-	list(APPEND WIN_ICONV_SOURCES iconv.def)
+	list(APPEND WIN_ICONV_SOURCES include/iconv.def)
 endif(BUILD_SHARED_LIBS)
 
 # static/dynamic depends on standard BUILD_SHARED_LIBS flag
