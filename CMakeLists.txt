@@ -91,11 +91,6 @@ endif(BUILD_SHARED_LIBS)
 if (WIN_ICONV_INSTALL)
     install(TARGETS iconv
 		RUNTIME DESTINATION bin
-        LIBRARY DESTINATION lib
-        ARCHIVE DESTINATION lib
-	)
-	install(FILES include/iconv.h
-		DESTINATION include
 	)
 endif (WIN_ICONV_INSTALL)
 
